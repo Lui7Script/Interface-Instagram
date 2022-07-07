@@ -73,40 +73,40 @@ body {
     overflow: hidden;
 }
 
-.profile-photo img{
+.profile-photo img {
     height: 6rem;
 }
 
-.instagram-login{
-   background-color:#0095f6 ;
-   color: #ffffff;
-   padding: 8px;
-   border-radius: 4px;
+.instagram-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
 }
 
-.instagram-logout{
-color:#0095f6;
-margin-top: 1rem;
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
 }
 
-.not-account{
+.not-account {
     color: rgb(160, 160, 160);
 }
 
-.link-blue{
+.link-blue {
     color: #0095f6;
 }
 
-.get-the-app{
+.get-the-app {
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: flex-end;
-    width:100%;
+    width: 100%;
     padding: 1.0rem 0;
 }
 
-.download{
+.download {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -114,16 +114,47 @@ margin-top: 1rem;
     padding: 1rem;
 }
 
-.app-download{
+.app-download {
     height: 3rem;
     width: 10rem;
     background-size: cover;
 }
 
-.app-download:nth-child(1){
+.app-download:nth-child(1) {
     background-image: url('Img/download\ \(2\).png');
 }
 
-.app-download:nth-child(2){
+.app-download:nth-child(2) {
     background-image: url('Img/png-transparent-app-store-logo-iphone-app-store-get-started-now-button-electronics-text-telephone-call.png');
+}
+
+
+@media(max-width:1024px) {
+    .Instagram-wrapper {
+        width: 90%;
+    }
+}
+
+
+@media(max-width:650px){
+    .body{
+        background-color: #ffffff;
+    }
+    
+    .Instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none; 
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+
+        border: 1px solid transparent;
+    }
 }
